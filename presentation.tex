@@ -43,23 +43,27 @@ basicstyle=\footnotesize
     \end{enumerate}
 \end{frame}
 
-%\begin{frame}{Why do we use revision control?}
-%    \begin{figure}[ht]
-%        \centering
-%        \includegraphics[width=0.8\linewidth]{img/losing.jpg}
-%        \caption{Not using revision control is always a bad choice}
-%        \label{fig:figure2}
-%    \end{figure}
-%\end{frame}
-%
-%\begin{frame}{Why do we use revision control?}
-%    \begin{figure}[ht]
-%        \centering
-%        \includegraphics[width=0.8\linewidth]{img/winning.jpg}
-%        \caption{This is what happens when you use Revision Control}
-%        \label{fig:figure1}
-%    \end{figure}
-%\end{frame}
+\begin{frame}{Why do we use revision control?}
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\linewidth]{img/losing.jpg}
+        \caption{Not using revision control is always a bad choice}
+        \label{fig:figure2}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Why do we use revision control?}
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.8\linewidth]{img/winning.jpg}
+        \caption{This is what happens when you use Revision Control}
+        \label{fig:figure1}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{The number one rule for revision control?}
+Use It! 
+\end{frame}
 
 \begin{frame}{What is revision control?}
     \begin{itemize}
@@ -183,20 +187,41 @@ basicstyle=\footnotesize
 
 \begin{frame}{Bring on the trumpets!}
     \begin{block}{Thats all folks!}
-
+        So where do we go from here?
+        \begin{enumerate}
+            \item \textbf{Leave} if, like Jason Derulo, you're ridin' solo!
+            \item \textbf{Stay} and we'll go more pro with Git!
+        \end{enumerate}
+    \end{block}
     \begin{figure}[ht]
         \centering
-        \includegraphics[width=0.5\linewidth]{img/staging.png}
-        \label{fig:figure3}
+        \includegraphics[width=0.8\linewidth]{img/pleasestay.png}
     \end{figure}
-    \end{block}
 \end{frame}
 
-\begin{frame}{git branch}
+\begin{frame}{git diff}
+    git diff
+\end{frame}
+
+\begin{frame}{Git Branch}
+    \begin{block}{Git Branch, or, programming your bit on the side!}
+    \textbf{In a nutshell}, you use git branch to list your current branches, create new branches and delete unnecessary or already merged branches. 
+    \begin{figure}[ht]
+        \centering
+        \includegraphics[width=0.40\linewidth]{img/branching.png}
+        \caption{A single git repository can maintain multiple branches of development.}
+    \end{figure}
+    \end{block}
+    \clfact{git branch}{list, create and manage working contexts}
+\end{frame}
+\demo{Creating a branch for some simple changes}
+
+\begin{frame}{git ignore}
     git branch
 \end{frame}
 
-\begin{frame}{git tag}
+\begin{frame}{Other matters...}
     git tag
+    git log
 \end{frame}
 \end{document}

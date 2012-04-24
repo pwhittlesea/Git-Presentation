@@ -1,7 +1,11 @@
 \begin{frame}{What is revision control?}
     \begin{itemize}
         \item More commonly known as "Source Control Management" (SCM)
-        \pause
+        \item What does a SCM do:
+        \begin{itemize}
+            \item Keep track of files creation/deletion, changes over time
+            \item Backup to offsite store
+        \end{itemize}  
         \item Two major types:
         \begin{itemize}
             \item Centralised SCM
@@ -9,7 +13,6 @@
                 \item Server: The Repository
                 \item Client: Local changes
             \end{itemize}
-            \pause
             \item Decentralised SCM
             \begin{itemize}
                 \item Anyone can be the server %(GDP)
@@ -34,5 +37,53 @@
 \begin{frame}{Under the hood?}
     \begin{block}{Google it!}
         It can get pretty advanced pretty quickly
+    \end{block}
+\end{frame}
+
+\begin{frame}{Tools}
+    \begin{block}{Client-side}
+        \begin{itemize}
+            \item git
+            \item git-svn
+        \end{itemize}
+    \end{block}
+    \begin{block}{Applications}
+        \begin{columns}[c] % the "c" option specifies center vertical alignment
+            \column{.33\textwidth} % column designated by a command
+            \centering
+            \includegraphics[width=0.4\linewidth]{img/gitx.png}
+
+            gitx
+            \column{.33\textwidth}
+            \centering
+            \includegraphics[width=0.4\linewidth]{img/githubformac.png}
+
+            GitHub for Mac
+            \column{.33\textwidth}
+            \centering
+            \includegraphics[width=0.4\linewidth]{img/dropbox.png}
+
+            Dropbox
+        \end{columns}
+    \end{block}
+    \begin{block}{Online}
+        \begin{columns}[c] % the "c" option specifies center vertical alignment
+            \column{.33\textwidth} % column designated by a command
+            \centering
+            \includegraphics[width=0.4\linewidth]{img/bitbucket.png}
+
+            BitBucket
+            \column{.33\textwidth}
+            \centering
+            \includegraphics[width=0.4\linewidth]{img/github.png}
+
+            GitHub
+            \column{.33\textwidth}
+            \vspace{0.4cm}
+            \centering
+            \includegraphics[width=0.6\linewidth]{img/googlecode.png}
+
+            Google Code
+        \end{columns}
     \end{block}
 \end{frame}

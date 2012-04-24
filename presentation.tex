@@ -12,8 +12,8 @@
 language=bash,
 basicstyle=\footnotesize
 }
-\newcommand{\demo}[1]{\begin{frame}{Its about to get real!}\begin{exampleblock}{#1}To the command line!\end{exampleblock}\end{frame}}
-\newcommand{\clfact}[2]{\begin{alertblock}{Function Fact}\textbf{#1} #2\end{alertblock}}
+\newcommand{\demo}[1]{\begin{exampleblock}{To the command line!}#1\end{exampleblock}}
+\newcommand{\clfact}[2]{\begin{alertblock}{In short...}\textbf{#1} #2\end{alertblock}}
 \begin{document}
 
 \begin{frame}
@@ -31,9 +31,9 @@ basicstyle=\footnotesize
 \input{functions/git_commit.tex}
 \input{functions/git_remote.tex}
 \input{functions/git_push.tex}
+\input{functions/git_pull.tex}
 \input{sections/section_intrim.tex}
-\input{functions/git_diff.tex}
+%\input{functions/git_diff.tex}
 \input{functions/git_branch.tex}
-\input{functions/git_ignore.tex}
 \input{sections/section_other.tex}
 \end{document}

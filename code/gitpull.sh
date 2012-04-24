@@ -1,0 +1,9 @@
+$ git pull
+
+remote: Counting objects: 400, done.
+remote: Compressing objects: 100% (132/132), done.
+remote: Total 2783 (delta 1526), reused 258 (del...
+Receiving objects: 100% (278/278), 1.23 MiB | 10...
+Resolving deltas: 100% (152/152), completed with...
+From github.com:pwhittlesea/learngit
+   8e29b09..c7c5a10  master     -> origin/master
